@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4906762C2922C8D00042C991 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4906762B2922C8D00042C991 /* Colors.xcassets */; };
+		4906762E2922C94C0042C991 /* Colors+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906762D2922C94C0042C991 /* Colors+.swift */; };
+		490676302922D2DC0042C991 /* NextDayForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906762F2922D2DC0042C991 /* NextDayForecastView.swift */; };
+		490676322922D67B0042C991 /* TenDayForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490676312922D67B0042C991 /* TenDayForecastView.swift */; };
 		499CA59F291FCF8F000AFA11 /* Weather_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CA59E291FCF8F000AFA11 /* Weather_ApplicationApp.swift */; };
 		499CA5A1291FCF8F000AFA11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CA5A0291FCF8F000AFA11 /* ContentView.swift */; };
 		499CA5A3291FCF90000AFA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499CA5A2291FCF90000AFA11 /* Assets.xcassets */; };
 		499CA5A6291FCF90000AFA11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499CA5A5291FCF90000AFA11 /* Preview Assets.xcassets */; };
+		499CA5AD291FDBDA000AFA11 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CA5AC291FDBDA000AFA11 /* HeaderView.swift */; };
+		499CA5B0291FDF0A000AFA11 /* WeatherTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CA5AF291FDF0A000AFA11 /* WeatherTableView.swift */; };
+		49D4CCF42922680B00C7814A /* BihourlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D4CCF32922680B00C7814A /* BihourlyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4906762B2922C8D00042C991 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4906762D2922C94C0042C991 /* Colors+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+.swift"; sourceTree = "<group>"; };
+		4906762F2922D2DC0042C991 /* NextDayForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDayForecastView.swift; sourceTree = "<group>"; };
+		490676312922D67B0042C991 /* TenDayForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenDayForecastView.swift; sourceTree = "<group>"; };
 		499CA59B291FCF8F000AFA11 /* Weather Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499CA59E291FCF8F000AFA11 /* Weather_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_ApplicationApp.swift; sourceTree = "<group>"; };
 		499CA5A0291FCF8F000AFA11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		499CA5A2291FCF90000AFA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499CA5A5291FCF90000AFA11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		499CA5AC291FDBDA000AFA11 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		499CA5AF291FDF0A000AFA11 /* WeatherTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableView.swift; sourceTree = "<group>"; };
+		49D4CCF32922680B00C7814A /* BihourlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BihourlyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,16 @@
 			isa = PBXGroup;
 			children = (
 				499CA59E291FCF8F000AFA11 /* Weather_ApplicationApp.swift */,
+				499CA5AC291FDBDA000AFA11 /* HeaderView.swift */,
+				499CA5AF291FDF0A000AFA11 /* WeatherTableView.swift */,
+				49D4CCF32922680B00C7814A /* BihourlyView.swift */,
+				4906762F2922D2DC0042C991 /* NextDayForecastView.swift */,
+				490676312922D67B0042C991 /* TenDayForecastView.swift */,
 				499CA5A0291FCF8F000AFA11 /* ContentView.swift */,
 				499CA5A2291FCF90000AFA11 /* Assets.xcassets */,
 				499CA5A4291FCF90000AFA11 /* Preview Content */,
+				4906762B2922C8D00042C991 /* Colors.xcassets */,
+				4906762D2922C94C0042C991 /* Colors+.swift */,
 			);
 			path = "Weather Application";
 			sourceTree = "<group>";
@@ -125,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4906762C2922C8D00042C991 /* Colors.xcassets in Resources */,
 				499CA5A6291FCF90000AFA11 /* Preview Assets.xcassets in Resources */,
 				499CA5A3291FCF90000AFA11 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499CA5B0291FDF0A000AFA11 /* WeatherTableView.swift in Sources */,
 				499CA5A1291FCF8F000AFA11 /* ContentView.swift in Sources */,
+				490676322922D67B0042C991 /* TenDayForecastView.swift in Sources */,
+				49D4CCF42922680B00C7814A /* BihourlyView.swift in Sources */,
+				4906762E2922C94C0042C991 /* Colors+.swift in Sources */,
+				499CA5AD291FDBDA000AFA11 /* HeaderView.swift in Sources */,
+				490676302922D2DC0042C991 /* NextDayForecastView.swift in Sources */,
 				499CA59F291FCF8F000AFA11 /* Weather_ApplicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -267,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather Application/Preview Content\"";
+				DEVELOPMENT_TEAM = VFYSQZ843Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather Application/Preview Content\"";
+				DEVELOPMENT_TEAM = VFYSQZ843Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
